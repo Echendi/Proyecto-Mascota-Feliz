@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Registro de Propietario</title>
+</head>
+<body>
+    <main>
+    <form>
+        <fieldset>
+            
+            <h2>Registrar propietario</h2>
+
+            <div class="informacion">
+                <label for="txt-id">Identificación: </label>
+                <input type="number" id="txt-id" placeholder="XXXXXXXXXX" min="100000" max="9999999999" required> 
+
+                <label for="txt-nombres">Nombres: </label>
+                <input type="text" id="txt-nombres" placeholder="Pepito" required> 
+
+                <label for="txt-apellidos">Apellidos: </label>
+                <input type="text" id="txt-apellidos" placeholder="Monsalve" required> 
+            </div>
+
+            <div class="informacion">
+                <label for="txt-direccion">Dirección: </label>
+                <input type="text" id="txt-direccion" placeholder="Calle 16 # 4 - 40" required>
+    
+                <label for="txt-tel">Telefono: </label>
+                <input type="number" id="txt-tel" placeholder="xxx-xxx-xxxx" min="1000000000" max="9999999999" required> 
+    
+                <label for="txt-email">e-mail: </label>
+                <input type="email" id="txt-email"  placeholder="nombre.apellido@correo.com" name="email" required> 
+            </div>
+
+            <button>Registar</button>
+        </fieldset>
+    </form>
+    </main>
+</body>
+</html>
