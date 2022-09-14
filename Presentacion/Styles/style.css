@@ -7,18 +7,11 @@ main {
 }
 
 form {
-    padding:2px;
     cursor:pointer;
     display:block;
     width:100%;
     margin: 0 auto;
     text-align:left;
-}
-
-.informacion {
-    display: inline-block;
-    margin: 2% 4%;
-    width: 40%;
 }
 
 form h2 {
@@ -77,9 +70,21 @@ form button {
 
 form button:hover {
     background-color: #0040f1;
+    cursor: pointer;
 }
 
 form button:active {
     background-color: #000272;
 }
 
+.informacion {
+    display: inline-block;
+    margin: 2% 4%;
+    width: 40%;
+}
+
+.busqueda {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
