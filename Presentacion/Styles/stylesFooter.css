@@ -1,0 +1,64 @@
+.pie {
+    background-color: #4c77af;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    
+  }
+
+  img {
+   width:  300px;
+     }
+
+  .logo {
+    align-items: center;
+    border-end-end-radius: 20px;
+    border-image: round;
+    width: 200px;
+    border: radius 20px; 
+    
+        
+  }
+
+  .logo h2 {
+
+    color: rgb(183, 198, 211);
+    position: relative;
+    left: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+  }
+
+  
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 240px;
+    text-justify: distribute-all-lines;
+  }
+
+  .logoUTP {
+    padding: 20px;
+    object-fit: contain; 
+    position: relative;
+    top: 50px;
+    left: 20px;
+  }
+
+ 
+    .integrantes {
+    font-family: 'Century Gothic,CenturyGothic,AppleGothic,sans-serif'; 
+    font-style: oblique;
+    text-align:justify;
+    position: relative;
+    top: 30px;
+    left: 80px;
+  }
+
+  .derechos {
+    position: relative;
+    left: 30px; 
+  }
+
+
+
+  
