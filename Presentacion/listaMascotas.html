@@ -12,34 +12,35 @@
 <body>
 
     <main>
-            <form>
-            <fieldset>
-                <h2>Lista de Mascotas</h2>
-
-                <label for="txt-id">Ingrese id de la mascota: </label>
-                <input type="number" id="txt-nombre" required > 
-                <button>Buscar</button>
-                <br><br>
-            
-                <label for="txt-nombre">Nombre: </label>
-                <br>
-                <input type="text" id="txt-nombre" disabled > 
-                <br><br>
-                <label for="txt-color">Color: </label>
-                <br>
-                <input type="text" id="txt-color" disabled> 
-                <br><br>
-                <label for="txt-especie">Especie: </label>
-                <br>
-                <input type="text" id="txt-especie" disabled> 
-                <br><br>
-                <label for="txt-raza">Raza: </label>
-                <br>
-                <input type="text" id="txt-raza" disabled>
-                <br><br>
-                
-            </fieldset>
-        </form>
+        <h2>Lista de Mascotas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nombre</th>
+                    <th>Color</th>
+                    <th>Especie</th>
+                    <th>Raza</th>
+                </tr>
+               
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 01 </td>
+                    <td> Lucas </td>
+                    <td> Marrón </td>
+                    <td> Perro </td>
+                    <td> Pincher </td>
+                </tr>
+                <tr>
+                    <td> 02 </td>
+                    <td> Pepita </td>
+                    <td> Negro </td>
+                    <td> Gato </td>
+                    <td> Siames </td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
     <footer class="pie">
