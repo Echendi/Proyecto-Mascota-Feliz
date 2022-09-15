@@ -1,4 +1,4 @@
-main {
+body {
     background-image: url(fondo.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -7,7 +7,6 @@ main {
 }
 
 form {
-    padding:2px;
     cursor:pointer;
     display:block;
     width:100%;
@@ -15,13 +14,7 @@ form {
     text-align:left;
 }
 
-.informacion {
-    display: inline-block;
-    margin: 2% 4%;
-    width: 40%;
-}
-
-form h2 {
+main h2 {
     text-align: center;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     color: #ffffff;
@@ -77,9 +70,61 @@ form button {
 
 form button:hover {
     background-color: #0040f1;
+    cursor: pointer;
 }
 
 form button:active {
     background-color: #000272;
 }
 
+.informacion {
+    display: inline-block;
+    margin: 2% 4%;
+    width: 40%;
+}
+
+.busqueda {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+th , td {
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+th {
+    color: #ffffff;
+    font-weight: bold;
+    background: #00A0F1;
+    text-shadow: -1px -1px #000000;
+}
+
+td {
+    background: rgba(0, 160, 241, 0.7);
+    text-align: center;
+}
+
+th:first-child { 
+    border-top-left-radius: 10px; 
+}
+
+th:last-child {   
+    border-top-right-radius: 10px; 
+}
+
+tr:last-child td:first-child { 
+    border-bottom-left-radius: 10px; 
+}
+
+tr:last-child td:last-child { 
+    border-bottom-right-radius: 10px; 
+}

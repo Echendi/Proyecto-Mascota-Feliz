@@ -4,46 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/stylesFooter.css">
     <title>Registro de Veterinario</title>
 </head>
 <body>
-   
-    <form>
-        <fieldset>
-            <legend>Registar veterinario</legend>
+    <main>
+        <form>
+            <fieldset>
+                <h2>Registar veterinario</h2>
 
-            <label for="txt-id">Identificación: </label>
-            <br>
-            <input type="number" id="txt-id" placeholder="Ejemplo: 1111111111" min="1000000000" max="9999999999" required> 
-            <br><br>
+                <div class="informacion">
+                    <label for="txt-id">Identificación: </label>
+                    <input type="number" id="txt-id" placeholder="Ejemplo: 1111111111" min="1000000000" max="9999999999" required> 
+        
+                    <label for="txt-nombres">Nombres: </label>
+                    <input type="text" id="txt-nombres" placeholder="Ejemplo: Julian" required> 
+        
+                    <label for="txt-apellidos">Apellidos: </label>
+                    <input type="text" id="txt-apellidos" placeholder="Ejemplo: Monsalve" required> 
+                </div>
+                <div class="informacion">
+                    <label for="txt-direccion">Dirección: </label>
+                    <input type="text" id="txt-direccion" placeholder="Ejemplo: Calle 16 # 4 - 40" required>
+                    
+                    <label for="txt-tel">Telefono: </label>
+                    <input type="number" id="txt-tel" placeholder="Ejemplo: 1111111111" min="1000000000" max="9999999999" required> 
+                    
+                    <label for="txt-tp">Tarjeta profesional: </label>
+                    <input type="text" id="txt-tp" name="email" required> 
+                </div>
+                
+                <button>Registar</button>
+            </fieldset>
+        </form>
+    </main>
 
-            <label for="txt-nombres">Nombres: </label>
-            <br>
-            <input type="text" id="txt-nombres" placeholder="Ejemplo: Julian" required> 
-            <br><br>
+    <footer class="pie">
+        <div class="header">
+            <div class="logo">
+                <p> <h2>Mascota Feliz</h2></p>
+                <img src="Logo1MascotaFeliz.jpg" alt="">
+             </div>
+            <div class="integrantes">
+              <h3>GRUPO 3: "LOS JAVACRÓNICOS"</h3>
+              <h3>INTEGRANTES:</h3>
+              <ul>
+                <li> <h3>Nicolas Fajardo</h3></li>
+                <li><h3>Julder Bernal</h3></li>
+                <li><h3>David Perdomo</h3></li>
+              </ul> 
 
-            <label for="txt-apellidos">Apellidos: </label>
-            <br>
-            <input type="text" id="txt-apellidos" placeholder="Ejemplo: Monsalve" required> 
-            <br><br>
+            </div> 
+            <div class="logoUTP">
+                <img  src="logo2UTPMINTIC2022.png" alt="">
+            </div>
 
-            <label for="txt-direccion">Dirección: </label>
-            <br>
-            <input type="text" id="txt-direccion" placeholder="Ejemplo: Calle 16 # 4 - 40" required>
-            <br><br>
-
-            <label for="txt-tel">Telefono: </label>
-            <br>
-            <input type="number" id="txt-tel" placeholder="Ejemplo: 1111111111" min="1000000000" max="9999999999" required> 
-            <br><br>
-
-            <label for="txt-tp">Tarjeta profesional: </label>
-            <br>
-            <input type="text" id="txt-tp" name="email" required> 
-            <br><br>
-
-            <button>Registar</button>
-        </fieldset>
-    </form>
+        </div> <br><br>
+        <hr>
+        <div class="derechos">
+        <p> <a href="https://www.freepik.com/free-vector/cute-pets-illustration_16276919.htm">Image by rawpixel.com</a> on Freepik</p>
+        </div>
+    </footer> 
+    
 </body>
 </html>
