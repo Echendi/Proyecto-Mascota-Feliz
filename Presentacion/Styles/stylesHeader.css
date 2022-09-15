@@ -1,8 +1,8 @@
-table {
-    font-family: arial, sans-serif;
+/*table {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     border-collapse: collapse;
     width: 100%;
-  }
+  }*/
   
   td, th {
     border: 1px solid #dddddd;
@@ -16,8 +16,10 @@ table {
 
   .menu-bar
  {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     background: rgb(121, 132, 184);
     text-align: center;
+    font-size: 18px;
 
 }
 
