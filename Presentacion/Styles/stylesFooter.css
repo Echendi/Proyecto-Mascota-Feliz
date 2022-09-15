@@ -1,5 +1,5 @@
   .pie {
-    background-color: #4c77af;
+    background-color: rgba(0, 160, 241, 0.8);
     padding-bottom: 10px;
     border-radius: 20px 20px 0 0;
     margin-top: auto;
@@ -47,6 +47,8 @@
     font-style: oblique;
     text-align:center;
     color: #FFFFFF;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 20px;
     position: relative;
     top: 30px;
     left: 80px;
