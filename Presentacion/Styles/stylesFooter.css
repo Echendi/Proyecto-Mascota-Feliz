@@ -1,23 +1,14 @@
-<<<<<<< HEAD
 .pie {
     background-color: #00A0F1;
     padding-bottom: 10px;
     border-radius: 5px;
     
-=======
-  .pie {
-    background-color: rgba(0, 160, 241, 0.8);
-    padding-bottom: 10px;
-    border-radius: 20px 20px 0 0;
-    margin-top: auto;
->>>>>>> caf017dd8846099d2a62f4d21805f4875bd384b2
   }
 
   img {
    width:  300px;
   }
 
-<<<<<<< HEAD
   .logo img {
     /*align-items: center;*/
     border-end-end-radius: 5px;
@@ -27,14 +18,6 @@
     top: 30px;
     left: 20px;   
             
-=======
-  .logo {
-    align-items: center;
-    border-end-end-radius: 20px;
-    border-image: round;
-    width: 200px;
-    border: radius 20px;     
->>>>>>> caf017dd8846099d2a62f4d21805f4875bd384b2
   }
 
   .logo h2 {
@@ -73,7 +56,7 @@
     font-size: 20px;
     position: relative;
     top: 30px;
-    left: 80px;
+    left: 35px;
   }
 
   .derechos {
