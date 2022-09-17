@@ -1,5 +1,5 @@
 body {
-    background-image: url(fondo.png);
+    background-image: url(fondo_mascotas.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,7 +22,7 @@ main h2 {
     font-size: 48px;
     font-weight: bold;
     padding: 40px 0;
-    background-color: rgb(134, 226, 238, 0.6);
+    background-color: rgba(0, 92, 104, 0.767);
 }
 
 form label, form input{
@@ -47,7 +47,7 @@ form input:focus {
 }
 
 form label {
-    color: #ffffff;
+    color: #000000;
     text-shadow: 0 0 15px rgb(0, 204, 255);
     font-weight: bolder;
     margin: 0 0 5px 10px;
